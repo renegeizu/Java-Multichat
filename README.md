@@ -36,9 +36,10 @@ Genera un numero aleatorio entre el 1 y el 6 y muestra el resultado a todos los 
 
 Cliente -> Servidor (SuperUsuario)
 -------------------------------------
-+ /SUDO <contraseña> \n
-Envia una peticion de permisos de superusuario, indicando la contraseña para poder acceder a ellos. Los permisos de superusuario son 
-necesarios para ejecutar todos los comandos descritos a continuacion.
+```java
+/SUDO <contraseña>
+// Envia una peticion de permisos de superusuario, indicando la contraseña para poder acceder a ellos. Los permisos de superusuario son 
+// necesarios para ejecutar todos los comandos descritos a continuacion.
 + /D <nombre sala> \n
 Elimina una sala del servidor, moviendo a todos los usuarios que haya en ella a la sala Principal.
 + /KICK <nombre> \n
